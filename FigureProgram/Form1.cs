@@ -1,9 +1,11 @@
+using System;
 using System.Threading;
 
 namespace FigureProgram
 {
     public partial class Form1 : Form
     {
+        private static readonly Random random = new Random();
         public Form1()
         {
             InitializeComponent();
@@ -27,7 +29,7 @@ namespace FigureProgram
         {
             for (int i = 0; i < 1000; i++)
             {
-                this.CreateGraphics().DrawRectangle(new Pen(Brushes.Red, 4), new Rectangle(new Random().Next(0, this.Width),new Random().Next(0, this.Height), 20, 20));
+                this.CreateGraphics().DrawRectangle(new Pen(RandomColor(), 4), new Rectangle(new Random().Next(0, this.Width),new Random().Next(0, this.Height), 20, 20));
                 Thread.Sleep(3000);
             }
             MessageBox.Show("Rectangles are ready!");
@@ -61,6 +63,10 @@ namespace FigureProgram
                 Thread.Sleep(4000);
             }
             MessageBox.Show("Circles are ready!");
+        }
+        private Color RandomColor()
+        {
+            return Color.FromArgb((byte)random.Next(0, 255), (byte)random.Next(0, 255), (byte)random.Next(0, 255));
         }
     }
 }
