@@ -31,6 +31,7 @@
             this.btnRec = new System.Windows.Forms.Button();
             this.btnTrg = new System.Windows.Forms.Button();
             this.btnCrc = new System.Windows.Forms.Button();
+            this.btnStop = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnRec
@@ -63,11 +64,25 @@
             this.btnCrc.UseVisualStyleBackColor = true;
             this.btnCrc.Click += new System.EventHandler(this.btnCrc_Click);
             // 
+            // btnStop
+            // 
+            this.btnStop.BackColor = System.Drawing.Color.Red;
+            this.btnStop.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnStop.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnStop.Location = new System.Drawing.Point(694, 12);
+            this.btnStop.Name = "btnStop";
+            this.btnStop.Size = new System.Drawing.Size(94, 39);
+            this.btnStop.TabIndex = 3;
+            this.btnStop.Text = "Stop";
+            this.btnStop.UseVisualStyleBackColor = false;
+            this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnStop);
             this.Controls.Add(this.btnCrc);
             this.Controls.Add(this.btnTrg);
             this.Controls.Add(this.btnRec);
@@ -83,5 +98,6 @@
         private Button btnRec;
         private Button btnTrg;
         private Button btnCrc;
+        private Button btnStop;
     }
 }
