@@ -33,6 +33,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.btnBG = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnBack
@@ -75,7 +76,16 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "*The program may have some bugs, like shapes\r\n spawned outside of the window, for" +
     " now I cannot fix it!*";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // btnBG
+            // 
+            this.btnBG.Image = ((System.Drawing.Image)(resources.GetObject("btnBG.Image")));
+            this.btnBG.Location = new System.Drawing.Point(738, 12);
+            this.btnBG.Name = "btnBG";
+            this.btnBG.Size = new System.Drawing.Size(50, 50);
+            this.btnBG.TabIndex = 4;
+            this.btnBG.UseVisualStyleBackColor = true;
+            this.btnBG.Click += new System.EventHandler(this.btnBG_Click);
             // 
             // Instructions
             // 
@@ -83,6 +93,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PeachPuff;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnBG);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -101,5 +112,6 @@
         private Label label1;
         private Label label2;
         private Label label3;
+        private Button btnBG;
     }
 }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace FigureProgram
 {
-    public partial class Instructions : Form
+    public partial class InstructionsBG : Form
     {
-        public Instructions()
+        public InstructionsBG()
         {
             InitializeComponent();
         }
@@ -24,11 +24,11 @@ namespace FigureProgram
             fm.Show();
         }
 
-        private void btnBG_Click(object sender, EventArgs e)
+        private void btnUK_Click(object sender, EventArgs e)
         {
-            InstructionsBG bg = new InstructionsBG();
+            Instructions ins = new Instructions();
             Hide();
-            bg.Show();
+            ins.Show();
         }
     }
 }

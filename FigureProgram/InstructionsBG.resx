@@ -57,20 +57,21 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label2.Text" xml:space="preserve">
-    <value>This program, spawn rectangles, triangles and circles at random points.
- They work if the button for the shape is being pressed.
- It spawns rectangle in each 3 seconds, triangle in each 2 seconds and circle
- in each 4 seconds.
- The program stops, when Stop button is being pressed!</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="btnBG.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnUK.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAJ
-        OQAACTkBXd2zJwAAAIpJREFUaEPtzzERgAAQA8HXgAhqdCAGLVRIQA01BWYeAycg+Ulmtkl31UOWELUl
-        RG0JUVtC1JYQtSVEbQlR25yQ+3t6gqrr6BHwdISnIzwd4ekIT0d4OsLTEZ6O8HSEpyM8HeHpCE9HeDrC
-        09G5bz1BvevSEyRETULUJERNQtQkRE1C1CREzZCQpX8OvTFvxVbRWwAAAABJRU5ErkJggg==
+        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wgAADsIBFShKgAAAAlJJREFUaEPtmj1Ow0AQhZc7UFNBRctV4AD0UNBzAOhSpIcOzkGBEAU/FR1l6KE3
+        fhs7enbG4/2ZlQzyk74oWa9n9yOJnZFwq6tlNZTF7WO1c3BZuf1hjs/umtnrvOweBsFBDal2C/awuHn0
+        c78fnqq3vaNOrdX1snL+SYZMaZEQCcSL+IFEmZIioRLIRsQfSJApJRIjgbitCZEyJURiJRAnToyQsRZJ
+        kUAcHnJkLEVSJRCnnhggYyWSI4G9uNECIzIn5/fNq3X4XA0OauRI+E9H0FuqyLx/fDXP1uHzNDhtjWQJ
+        fL/8Q6YMh8/R6CdLgkWsZHi+BidbAnRe1OTK8FwNzufpRedYtATYGqjJkeF5GhwWSZIA4mBNqgzP0eC0
+        IskSQBxsSJHh4xociGRJANyMNHCN58sjFmV+nl/9sTbSpiU4/RocrI09SHtj/E8Uy0iblrDOLDIUadMS
+        1uk0Vn+ZWWRqzCJTYxaZGrPI1Pg/Is0d3izSIhLWmUWGIm1awjpRjZUUq8aq37ChiUOCGyuxbWzgVlcK
+        Wl0sypE2LdEPWl0+jra6lQlqdcXBmhAJLGglgmTJSIOhEsBSBEmW6Q/ESABrESRJhl/ESvACbfi4xlii
+        ZSwlEJ6jEZIomVyJ/qWZ52lw+jU4wTI5EiiEazyH52pwUEPdQ4hMjgQK4GbE4fkaHNQY/YOOyAz+RAmR
+        wFtqJRL0EVdkRJFQCWuRHJktkRiJEiIgRaYjEisBSoiAWJmNSIoEKCUCYmS8SKoEKCkCQmX8P57xAjES
+        oLQIGJdZVr/dxa/PH+K7twAAAABJRU5ErkJggg==
 </value>
   </data>
 </root>
