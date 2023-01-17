@@ -32,6 +32,7 @@
             this.btnTrg = new System.Windows.Forms.Button();
             this.btnCrc = new System.Windows.Forms.Button();
             this.btnStop = new System.Windows.Forms.Button();
+            this.btnHelp = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnRec
@@ -77,12 +78,24 @@
             this.btnStop.UseVisualStyleBackColor = false;
             this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
             // 
+            // btnHelp
+            // 
+            this.btnHelp.Font = new System.Drawing.Font("Showcard Gothic", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnHelp.Location = new System.Drawing.Point(745, 393);
+            this.btnHelp.Name = "btnHelp";
+            this.btnHelp.Size = new System.Drawing.Size(45, 45);
+            this.btnHelp.TabIndex = 4;
+            this.btnHelp.Text = "?";
+            this.btnHelp.UseVisualStyleBackColor = true;
+            this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PeachPuff;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnHelp);
             this.Controls.Add(this.btnStop);
             this.Controls.Add(this.btnCrc);
             this.Controls.Add(this.btnTrg);
@@ -100,5 +113,6 @@
         private Button btnTrg;
         private Button btnCrc;
         private Button btnStop;
+        private Button btnHelp;
     }
 }

@@ -136,5 +136,12 @@ namespace FigureProgram
             isPolygonGenerated = false;
             isEllipseGenerated = false;
         }
+
+        private void btnHelp_Click(object sender, EventArgs e)
+        {
+            Instructions ins = new Instructions();
+            Hide();
+            ins.Show();
+        }
     }
 }
