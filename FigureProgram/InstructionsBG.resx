@@ -61,7 +61,7 @@
   <data name="btnUK.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wgAADsIBFShKgAAAAlJJREFUaEPtmj1Ow0AQhZc7UFNBRctV4AD0UNBzAOhSpIcOzkGBEAU/FR1l6KE3
+        wQAADsEBuJFr7QAAAlJJREFUaEPtmj1Ow0AQhZc7UFNBRctV4AD0UNBzAOhSpIcOzkGBEAU/FR1l6KE3
         fhs7enbG4/2ZlQzyk74oWa9n9yOJnZFwq6tlNZTF7WO1c3BZuf1hjs/umtnrvOweBsFBDal2C/awuHn0
         c78fnqq3vaNOrdX1snL+SYZMaZEQCcSL+IFEmZIioRLIRsQfSJApJRIjgbitCZEyJURiJRAnToyQsRZJ
         kUAcHnJkLEVSJRCnnhggYyWSI4G9uNECIzIn5/fNq3X4XA0OauRI+E9H0FuqyLx/fDXP1uHzNDhtjWQJ
@@ -73,5 +73,12 @@
         wFtqJRL0EVdkRJFQCWuRHJktkRiJEiIgRaYjEisBSoiAWJmNSIoEKCUCYmS8SKoEKCkCQmX8P57xAjES
         oLQIGJdZVr/dxa/PH+K7twAAAABJRU5ErkJggg==
 </value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Тази програма, изчертава квадрати, триъгълници и кръгове на произволни точки.
+Те ще се изчертават, ако бутона за съответната фигура бъде натиснат.
+Програмата изчертава квадрат на всеки 3 секунди, триъгълник на всеки 2
+секунди и кръг на всеки 4 секунди.
+Програмата спира, когато Stop бутона бъде натиснат!</value>
   </data>
 </root>
