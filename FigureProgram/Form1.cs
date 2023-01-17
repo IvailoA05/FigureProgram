@@ -51,6 +51,7 @@ namespace FigureProgram
                 {
                     size = panelXDiff / 4;
                 }
+                
                 this.CreateGraphics().DrawRectangle(new Pen(RandomColor(), 4), new Rectangle(new Random().Next(0, this.Width),new Random().Next(0, this.Height), size, size));
                 Thread.Sleep(3000);
             }
